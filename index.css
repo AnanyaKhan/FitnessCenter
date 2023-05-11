@@ -1,0 +1,115 @@
+/* CSS RESET */
+body {
+  margin: 0px;
+  padding: 0px;
+  background-image: url("background-cover.png");
+  color: aliceblue;
+  font-family: "Oswald", sans-serif;
+}
+
+.btn {
+  font-family: "Oswald", sans-serif;
+  margin: 0 9px;
+  background-color: black;
+  color: aliceblue;
+  padding: 4px 14px;
+  cursor: pointer;
+  /* border: 2px solid grey; */
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.btn:hover {
+  background-color: rgb(60, 60, 60);
+}
+
+.container button {
+  display: block;
+  width: 74%;
+  margin: 20px auto;
+}
+
+.left {
+  /* border: 2px solid red; */
+  display: inline-block;
+
+  position: absolute;
+  left: 20px;
+  top: 10px;
+  margin: 12px auto;
+  text-align: center;
+}
+
+.mid {
+  /* border: 2px solid rgb(42, 48, 215); */
+  display: block;
+  width: 36%;
+  margin: 18px 350px;
+}
+
+.right {
+  /* border: 2px solid rgb(0, 255, 26); */
+  display: inline-block;
+
+  position: absolute;
+  right: 34px;
+  top: 20px;
+  margin: 12px auto;
+}
+
+.navbar {
+  display: inline-block;
+}
+
+.navbar li {
+  display: inline-block;
+  font-size: 20px;
+}
+
+.navbar li a {
+  color: aliceblue;
+  text-decoration: none;
+  padding: 30px 11px;
+}
+
+.navbar li a:hover {
+  color: rgb(149, 149, 149);
+  text-decoration: underline;
+}
+
+.left img {
+  width: 100px;
+  filter: invert(95%);
+}
+
+.left div {
+  text-align: center;
+  line-height: 19px;
+  font-size: 22px;
+  color: aliceblue;
+}
+
+.container {
+  /* border: 2px solid grey; */
+  margin: 106px 80px;
+  padding: 75px;
+  width: 33%;
+  border-radius: 28px;
+  color: aliceblue;
+}
+
+.form-group input {
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  display: block;
+  width: 508px;
+  padding: 1px;
+  border-radius: 8px;
+  margin: 11px auto;
+  font-size: 25px;
+  border: 2px solid grey;
+}
+
+.container h1 {
+  text-align: center;
+}
