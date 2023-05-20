@@ -1,2 +1,2 @@
 # FitnessCenter
-A basic landing page for fitness center built using raw html and css (not mobile responsive yet)
+A basic landing page for fitness center built using html and css (bootstrap)
