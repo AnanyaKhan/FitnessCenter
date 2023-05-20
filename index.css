@@ -5,21 +5,25 @@ body {
   background-image: url("background-cover.png");
   color: aliceblue;
   font-family: "Oswald", sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
 }
 
-.btn {
+.custom-button {
   font-family: "Oswald", sans-serif;
   margin: 0 9px;
   background-color: black;
   color: aliceblue;
   padding: 4px 14px;
   cursor: pointer;
-  /* border: 2px solid grey; */
+  border: 2px solid grey;
   border-radius: 10px;
   font-size: 16px;
 }
 
-.btn:hover {
+.custom-button:hover {
   background-color: rgb(60, 60, 60);
 }
 
@@ -27,24 +31,6 @@ body {
   display: block;
   width: 74%;
   margin: 20px auto;
-}
-
-.left {
-  /* border: 2px solid red; */
-  display: inline-block;
-
-  position: absolute;
-  left: 20px;
-  top: 10px;
-  margin: 12px auto;
-  text-align: center;
-}
-
-.mid {
-  /* border: 2px solid rgb(42, 48, 215); */
-  display: block;
-  width: 36%;
-  margin: 18px 350px;
 }
 
 .right {
@@ -102,7 +88,7 @@ body {
   font-family: "Oswald", sans-serif;
   text-align: center;
   display: block;
-  width: 508px;
+  width: 100%;
   padding: 1px;
   border-radius: 8px;
   margin: 11px auto;
@@ -112,4 +98,9 @@ body {
 
 .container h1 {
   text-align: center;
+}
+
+#brand-logo {
+  height: 50px;
+  width: 50px;
 }
